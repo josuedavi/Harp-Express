@@ -1,0 +1,73 @@
+
+
+<form #form="ngForm" (ngSubmit)="onSubmit(form)" >
+  <label>First Name: </label>
+  <br/>
+  <input type="text" placeholder="First Name" name="firstname" [(ngModel)] = "Personal.firstname"
+
+  style=
+  "width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;">
+  <br/>
+  <label>Last Name: </label>
+  <br/>
+  <input type="text" placeholder="Last Name" name="lastname" [(ngModel)]="Personal.lastname"
+  style=
+  "width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;">
+  <br/>
+  <label>Address: </label>
+  <br/>
+  <input type="text" placeholder="Address" name="address" [(ngModel)]="Personal.address"
+  style=
+  "width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;">
+  <br/>
+  <label>Email: </label>
+  <br/>
+  <input type="text"  placeholder="Email" name="email" [(ngModel)]="Personal.email"
+  style=
+  "width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;">
+  <br/>
+  <label>Phone Number:  </label>
+  <br/>
+  <input  placeholder="Phone Number" [(ngModel)]="Personal.number" name="number"
+  style=
+  "width: 20%;
+  font-size: 14px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;">
+  <br/>
+  <input id="leadid_token" name="universal_leadid" type="hidden" value=""/>
+  <p style="height: 40px;"></p>
+<br/>
+<button style="height:50px;width:140px; font-size: 22px;" type="submit" class="btn btn-success" type ="submit">Submit</button>
+ <br/>
+<p style="height: 5px;"></p>
+ <button type="button" class="btn btn-default" (click)="goToPrevious()" >	&larr; &nbsp;Go Back</button>
+</form>

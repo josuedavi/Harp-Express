@@ -1,0 +1,22 @@
+<form #form="ngForm" (ngSubmit)="onSubmit(form)">
+    <label style="font-size:22px;">Zip Code Of Property </label>
+    <br/>
+    <p style="height: 5px;"></p>
+    <input name="zipcode" id="zipcode" type="text" [(ngModel)] = "Zipcode.zipcode"
+    style=
+    "width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;"
+>
+<p style="height: 10px;"></p>
+    <br/>
+<button style="height:50px;width:140px; font-size: 22px;" class="btn btn-success" type="submit">Next</button>
+<br/>
+<p style="height: 5px;"></p>
+<button class="btn btn-default" (click)="goToPrevious()" >	&larr; 	&nbsp;Go Back</button>
+
+  </form>

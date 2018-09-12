@@ -1,0 +1,19 @@
+
+<h1>What Is The Estimated Cost Of The Property?</h1>
+<h3>${{someValue}} - ${{someValue+50000}}</h3>
+<br/>
+
+<div  style="margin: 0px 75px;">
+ <nouislider  [min]="50000" #slider [max]="1000000" [step]="50000" [(ngModel)]="someValue"></nouislider></div>
+
+
+
+<br/>
+
+<br/>
+<button style="height:50px;width:140px; font-size: 22px;" type="submit" class="btn btn-success" (click)="onSubmit()">Next</button>
+<br/>
+<p style="height: 5px;"></p>
+<button type="button" class="btn btn-default" (click)="goToPrevious()" >	&larr; 	&nbsp;Go Back</button>
+
+

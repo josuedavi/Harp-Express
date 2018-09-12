@@ -1,0 +1,10 @@
+@import "~nouislider/distribute/nouislider.min.css";
+.noUi-connects {
+  background:#187eaf;
+}
+.noUi-horizontal, .noUi-handle, .noUi-vertical, .noUi-handle {
+  background: #6295d5;
+}
+.noUi-target , .noUi-horizontal, .noUi-tooltip {
+  background-color: #6295d5;
+}

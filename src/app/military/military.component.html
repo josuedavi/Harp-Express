@@ -1,0 +1,22 @@
+
+
+  <form #form="ngForm">
+   <h1>
+
+  Have You Or Your Spouse Served In The Military?
+</h1>
+<p style="height: 5px;"></p>
+<img src="assets/no.png" id="yes" value="yes"
+(click) = "selectNo()" >
+
+<img src="assets/yes.png" value="no" id="no" (click) = "selectYes()" >
+<br/>
+<p style="height: 40px;"></p>
+<br/>
+<button style="height:50px;width:140px; font-size: 22px;" type="submit" class="btn btn-success" (click)="goToNext()">Next</button>
+<br/>
+<p style="height: 5px;"></p>
+<button type="button" class="btn btn-default" (click)="goToPrevious()" >	&larr; 	&nbsp;Go Back</button>
+
+</form>
+

@@ -1,0 +1,19 @@
+
+<form #form="ngForm" (ngSubmit)="logForm(form.value)">
+  <h1>
+
+   Do You Want To Cash Out?
+  </h1>
+  <p style="height: 15px;"></p>
+  <img src="assets/no.png" (click)="selectNo()">
+
+
+  <img src="assets/yes.png" (click)="selectYes()">
+  <p style="height: 40px;"></p>
+  <br/>
+  <button style="height:50px;width:140px; font-size: 22px;" type="submit" class="btn btn-success" (click)="goToNext()">Next</button>
+  <br/>
+  <p style="height: 5px;"></p>
+  <button type="button" class="btn btn-default" (click)="goToPrevious()" >	&larr; 	&nbsp;Go Back</button>
+
+</form>

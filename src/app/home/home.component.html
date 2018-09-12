@@ -1,0 +1,28 @@
+<form #form="ngForm" (ngSubmit)="logHome()">
+<div class = "images" style="background-color: rgba(236, 234, 236);">
+  </div>
+  <div>
+    <nav style=" text-align: center;">
+    <h1>
+        You Could be Eligible to <span style="color: #6fb882;">SAVE up to $2,400*</span>  a Year When You Refinance with HARP!
+    </h1>
+    <br/>
+  </nav>
+</div>
+  <h1>What Type of Property Are You Refinancing?</h1>
+  <p style="height: 40px;"></p>
+  <div>
+
+  </div>
+  <div style="display: block; height:150px;
+  padding-bottom: 50px ; margin-left: 50px;">
+    <img  src="assets/singlefamily.png"  value="Single Family" id="singlefamily" (click)=" selectSingle()"  >
+  <img  src="assets/multifamily.png" value="Multi-Family" id="multifamily" (click)=" selectMulti()" >
+ <img  src="assets/townhome.png" value="Town-Home" id="townhome" (click)=" selectTown()" >
+ <img  src="assets/condo.png"  value="Condo" id="condo" (click)="selectCondo()">
+<br/>
+</div>
+<br/>
+<button (click)="goToNext()" style="height:50px;width:140px; font-size: 22px;" type="button" class="btn btn-success" >Next</button>
+</form>
+

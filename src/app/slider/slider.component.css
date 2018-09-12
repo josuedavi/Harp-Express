@@ -1,0 +1,15 @@
+
+
+
+/*#slider{
+  background-color: #6295d5;
+}*/
+.noUi-connect {
+  background: purple;
+}
+.noUi-horizontal, .noUi-handle, .noUi-vertical, .noUi-handle {
+  background: purple;
+}
+.noUi-target , .noUi-horizontal, .noUi-tooltip {
+  background-color: purple;
+}
