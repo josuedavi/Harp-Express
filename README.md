@@ -23,4 +23,4 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 Before running the tests make sure you are serving the app via `ng serve`.
 
-<img src="Harp-Express.gif" height="500px" width="500px">
+<img src="Harp-Express.gif" height="500px" width="700px">
